@@ -1,0 +1,130 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo do currículo */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f7f7f7, #e0f7fa); /* Degradê suave entre um cinza claro e azul claro */
+    color: #333;
+    line-height: 1.8;
+    padding: 30px;
+  }
+  
+  /* Container principal */
+  .container {
+    width: 85%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff; /* Fundo branco para contraste */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título */
+  h1 {
+    text-align: center;
+    font-size: 3em;
+    color: #4A90E2;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  /* Estilo para subtítulos */
+  h2 {
+    font-size: 1.8em;
+    color: #4A90E2;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 3px solid #4A90E2;
+  }
+  
+  /* Informações de contato */
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+  }
+  
+  .contact-info p {
+    font-size: 1.1em;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .contact-info a {
+    color: #4A90E2;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Seções do currículo */
+  section {
+    margin-bottom: 25px;
+  }
+  
+  /* Listagem de experiências e qualificações */
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    margin-bottom: 20px;
+  }
+  
+  ul li::before {
+    content: "•";
+    color: #4A90E2;
+    margin-right: 12px;
+    font-size: 1.2em;
+  }
+  
+  /* Datas e detalhes */
+  .date {
+    font-style: italic;
+    color: #777;
+    margin-top: 5px;
+  }
+  
+  /* Rodapé */
+  footer {
+    text-align: center;
+    font-size: 0.95em;
+    color: #888;
+    margin-top: 30px;
+  }
+  
+  /* Botões e links de ação */
+  button, a {
+    background-color: #4A90E2;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    font-weight: 600;
+  }
+  
+  button:hover, a:hover {
+    background-color: #357ABD;
+  }
+  
+  /* Estilos adicionais para margens e espaçamento */
+  section p {
+    margin-top: 10px;
+  }
+  
+  h1, h2, p {
+    margin-bottom: 20px;
+  }
+      
